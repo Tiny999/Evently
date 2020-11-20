@@ -7,9 +7,12 @@
 }
 
 body{
-    background: #cccccc;
+    background: #f4f4f4;
     font-family: 'Roboto', sans-serif;
 }
+
+a, a:hover{ text-decoration: none; }
+li{ list-style: none; }
 
 #showcase{
     background: #333;
@@ -38,10 +41,16 @@ body{
 }
 
 /* Event */
-.event{
-    display: flex;
-}
+.event{ display: flex; }
+.calendar{ width: 60px; }
+.icons{ font-size: 12px; }
 
-.calendar{
-    width: 60px;
+
+
+/* About */
+#about{ background: #eee; }
+
+/* Footer */
+#footer{
+    background: #333;
 }
