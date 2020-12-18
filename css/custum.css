@@ -48,10 +48,20 @@ li{ list-style: none; }
 .calendar{ width: 60px; }
 .icons{ font-size: 12px; }
 
-
-
 /* About */
 #about{ background: #eee; }
+
+/* Register & Signin */
+.reg-form{
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #333;
+}
+
+.reg-form p{
+    color: #333;
+    font-size: 15px;
+}
 
 /* Footer */
 #footer{
