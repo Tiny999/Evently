@@ -61,20 +61,280 @@
 
     <!-- === === === === === === === === === Navbar End === === === === === === === === === -->
 
-    <!-- === === === === === === === === === Showcase Start === === === === === === === === === -->
-
-    <header id="submit-event" class="text-white">
-        <div class="container">
-            <div class="py-5">
-                <h1 class="display1 text-center">Submit Your Own Event<h1>
-            </div>
-        </div>
-    </header>
+    <!-- === === === === === === === === === Breadcrumb Start === === === === === === === === === -->
+    <div class="container">
+        <nav aria-label="breadcrumb" class="py-2">
+            <ol class="breadcrumb" style="background-color: inherit;">
+              <li class="breadcrumb-"><h5>Event Details</h5></li>
+              <li class="breadcrumb-item ml-auto"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Event</li>
+            </ol>
+        </nav>
+    </div>
     
-    <!-- === === === === === === === === === Showcase End === === === === === === === === === -->
+    <!-- === === === === === === === === === Breadcrumb End === === === === === === === === === -->
 
 
+    <!-- === === === === === === === === === Page Content Start === === === === === === === === === -->
 
+    <div id="event-details" class="pb-5">
+        <div class="container">
+            <h3 class="text-primary">Hair Exhibition</h3>
+            <div class="d-flex justify-content-between align-items-center pb-3" style="border-bottom: 1px solid #ccc;">
+                <div>
+                    <span class="mr-4"><i class="far fa-user"></i> Poster By <a href="#">Lizzie</a></span>
+                    <span><i class="far fa-thumbs-up"></i> 0</span>
+                </div>
+                <div>
+                    <button class="btn btn-success btn-sm"><i class="far fa-thumbs-up"></i> Like</button>
+                    <button class="btn btn-primary btn-sm"><i class="far fa-heart"></i> Add to wishlist</button>
+                    <button class="btn btn-info btn-sm"><i class="fas fa-share"></i> Share</button>
+                </div>
+            </div>
+
+            <!-- Details -->
+
+            <div class="main py-4">
+                <!-- Event Title -->
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <p class="text-info">Event Title:</p>
+                    </div>
+                    <div class="col">
+                        <p>Hair Exhibition</p>
+                    </div>
+                </div>
+                <!-- Event Type -->
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <p class="text-info">Event Type:</p>
+                    </div>
+                    <div class="col">
+                        <p>Exhibition</p>
+                    </div>
+                </div>
+                <!-- Event Date -->
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <p class="text-info">Event Date:</p>
+                    </div>
+                    <div class="col">
+                        <p>11/01/2021</p>
+                    </div>
+                </div>
+                <!-- Event Duration -->
+                <div class="row pb-3">
+                    <div class="col-4">
+                        <p class="text-info">Event Date:</p>
+                    </div>
+                    <div class="col">
+                        <p>1 day</p>
+                    </div>
+                </div>
+                <!-- Event Location -->
+                <div class="row pb-1">
+                    <div class="col-4">
+                        <p class="text-info">Event Location:</p>
+                    </div>
+                    <div class="col">
+                        <p>Lagos, Nigeria</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <nav class="mt-5">
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-link active" id="nav-general-tab" data-toggle="tab" href="#nav-general" role="tab" aria-controls="nav-general" aria-selected="true">General</a>
+                  <a class="nav-link" id="nav-info-tab" data-toggle="tab" href="#nav-info" role="tab" aria-controls="nav-info" aria-selected="false">More Info</a>
+                  <a class="nav-link" id="nav-venue-tab" data-toggle="tab" href="#nav-venue" role="tab" aria-controls="nav-venue" aria-selected="false">Venue</a>
+                  <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact/Website</a>
+                  <a class="nav-link" id="nav-images-tab" data-toggle="tab" href="#nav-images" role="tab" aria-controls="nav-images" aria-selected="false">Images</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+
+                <div class="tab-pane fade show active py-5" id="nav-general" role="tabpanel" aria-labelledby="nav-general-tab">
+                    
+                    <!-- Organizers Name -->
+                    <div class="row pb-3">
+                        <div class="col-4">
+                            <p class="text-info">Organizers Name:</p>
+                        </div>
+                        <div class="col">
+                            <p>Lizzie Hairline</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Organization Type -->
+                    <div class="row pb-3">
+                        <div class="col-4">
+                            <p class="text-info">Organization Type:</p>
+                        </div>
+                        <div class="col">
+                            <p>Small Business</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Related Industries -->
+                    <div class="row pb-3">
+                        <div class="col-4">
+                            <p class="text-info">Related Industries:</p>
+                        </div>
+                        <div class="col">
+                            <p>Fashion</p>
+                            <p>Cosmetics</p>
+                            <p>Beauty</p>
+                            <p>Lifestyle</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Featured Speakers -->
+                    <div class="row pb-3">
+                        <div class="col-4">
+                            <p class="text-info">Featured Appearances:</p>
+                        </div>
+                        <div class="col">
+                            <p>Lizzie</p>
+                            <p>Mr John</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Sponsors -->
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="text-info">Sponsors</p>
+                        </div>
+                        <div class="col">
+                            <p>Neemah's Clothing PLC</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="tab-pane fade" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab">
+
+                    <div class="py-5">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, illum molestiae voluptate architecto a inventore eveniet veritatis natus fugiat, tempore consectetur odio cum qui, laudantium quidem ex repudiandae eaque. Esse illum eligendi libero, voluptates officia laudantium distinctio nulla, impedit suscipit velit exercitationem perspiciatis iste, at ratione alias facere odit minima totam accusantium magni? Sunt, laudantium aliquid? Corrupti excepturi voluptatibus modi, minus quasi aliquam rem sint vero aspernatur eaque! Beatae accusamus quasi ullam corrupti fugit explicabo, nam aspernatur in error sapiente eligendi ipsam atque laudantium illo optio ut quidem praesentium libero quod iste ratione saepe! Id atque laborum corrupti tempora eum!</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum recusandae facilis sint omnis. Vero accusamus odio dolore sunt tempora aperiam maxime est quia provident modi explicabo eaque, quibusdam, at dolorem adipisci in eveniet ullam nisi totam deserunt itaque quos aut, qui officiis. Dolorem consectetur repellendus voluptate neque dignissimos. Enim, expedita ex aperiam perferendis aut nisi unde, deserunt qui optio, quae suscipit excepturi accusamus modi quasi adipisci magnam dignissimos? Quia, facilis.</p>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="nav-venue" role="tabpanel" aria-labelledby="nav-venue-tab">
+
+                    <div class="py-5">
+                        <!-- Venue Name -->
+                        <div class="row pb-3">
+                            <div class="col-4">
+                                <p class="text-info">Venue Name:</p>
+                            </div>
+                            <div class="col">
+                                <p>Eko Hotels & Suites</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Organization Type -->
+                        <div class="row pb-3">
+                            <div class="col-4">
+                                <p class="text-info">City:</p>
+                            </div>
+                            <div class="col">
+                                <p>Island</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Related Industries -->
+                        <div class="row pb-3">
+                            <div class="col-4">
+                                <p class="text-info">State:</p>
+                            </div>
+                            <div class="col">
+                                <p>Lagos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                    <div class="py-5">
+                        <!-- Organizers Name -->
+                        <div class="row pb-3">
+                            <div class="col-4">
+                                <p class="text-info">Organizers Name:</p>
+                            </div>
+                            <div class="col">
+                                <p>Lizzie Hairline</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Email -->
+                        <div class="row pb-3">
+                            <div class="col-4">
+                                <p class="text-info">Email:</p>
+                            </div>
+                            <div class="col">
+                                <p>lizziehairline@gmail.com</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Website -->
+                        <div class="row pb-3">
+                            <div class="col-4">
+                                <p class="text-info">Website:</p>
+                            </div>
+                            <div class="col">
+                                <p>lizziehairline.com</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Phone -->
+                        <div class="row pb-3">
+                            <div class="col-4">
+                                <p class="text-info">Phone:</p>
+                            </div>
+                            <div class="col">
+                                <p>08012345689</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- Social Media -->
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="text-info">Social</p>
+                            </div>
+                            <div class="col">
+                                <p><i class="fab fa-facebook-square"></i> lizziehairline</p>
+                                <p><i class="fab fa-twitter-square"></i> lizziehairline</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="nav-images" role="tabpanel" aria-labelledby="nav-images-tab">
+
+                    <div class="py-5">
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/event.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="img/showcase.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="img/event.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+
+        </div>
+    </div>
+
+    <!-- === === === === === === === === === Page Content End === === === === === === === === === -->
     
     
     
